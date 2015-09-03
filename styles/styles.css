@@ -8,13 +8,14 @@
 
 body {
     background: #FAEEB0;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .links_block {
     position: relative;
     overflow: hidden;
     width: 400px;
-    height: 200px;
+    height: 300px;
     margin: 200px auto;
 }
 
@@ -29,45 +30,55 @@ body {
     z-index: -1;
 }
 
-.links_block:hover .wrapper{
+.zoom {
     transform: translateZ(0) scale(1.5);
 }
 
 .link {
     position: absolute;
     overflow: hidden;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     cursor: pointer;
-}
+    z-index: 3;
+    }
 
 .link.fb {
-    top: 35%;
-    left: 17%;
+    top: 120px;
+    left: 60px;
     background: #5273B5;
 }
 
 .link.tw {
-    top: 10%;
-    left: 42%;
+    top: 70px;
+    left: 160px;
     background: #3FAAE1;
 }
 
 .link.google {
-    top: 35%;
-    left: 67%;
+    top: 120px;
+    left: 265px;
     background: #E84A2B;
 }
 
 .link a:first-child {
     display: block;
     margin-top: -300px;
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+    opacity: 0;
 }
 
 .link a:last-child {
     display: block;
     margin-top: 700px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0;
 }
 
 .link span {
@@ -75,9 +86,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
     background-size: 50%!important;
+    width: 75px;
+    height: 75px;
 }
 
 .fb span {
@@ -94,24 +105,36 @@ body {
 
 .down {
     top: 1000px!important;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
 }
 
 .activate {
     width: 100px;
     height: 100px;
-    margin: 50px auto;
+    margin: 100px auto;
     border-radius: 50%;
     background: #FE5567;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 300;
     color: #ffffff;
     text-align: center;
     line-height:100px;
     cursor: pointer;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
 .deactivate {
-    margin-top: 100px;
+    position: relative;
+    margin-top: 170px;
     background: transparent;
     font-size: 40px;
     color: rgba(255, 255, 255, 0.8);
@@ -120,6 +143,7 @@ body {
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    z-index: 20;
 }
 
 @-webkit-keyframes rot {
@@ -141,10 +165,74 @@ body {
 }
 
 .link:not(.down) {
-    -webkit-animation: rot 0.5s ease-out;
-    -moz-animation: rot 0.5s ease-out;
-    -ms-animation: rot 0.5s ease-out;
-    -o-animation: rot 0.5s ease-out;
+    -webkit-animation: rot 0.6s ease-out;
+    -moz-animation: rot 0.6s ease-out;
+    -ms-animation: rot 0.6s ease-out;
+    -o-animation: rot 0.6s ease-out;
     animation: rot 0.6s ease-out;
+}
+
+.open_link {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0!important;
+    left: 0!important;
+    border-radius: 0;
+    z-index: 6;
+}
+
+@-webkit-keyframes bounce {
+    10% {margin-top: 65px;}
+    30% {margin-top: 40px;}
+    60% {margin-top: 55px;}
+    100% {margin-top: 50px;}
+}
+
+@-ms-keyframes bounce {
+    10% {margin-top: 65px;}
+    30% {margin-top: 40px;}
+    60% {margin-top: 55px;}
+    100% {margin-top: 50px;}
+}
+
+@keyframes bounce {
+    20% {margin-top: 65px;}
+    30% {margin-top: 40px;}
+    60% {margin-top: 55px;}
+    100% {margin-top: 50px;}
+}
+
+.open_link span {
+    display: block;
+    width: 85px;
+    height: 85px;
+    left: 155px;
+    margin: 50px auto 0 auto;
+    -webkit-animation: bounce 0.7s ease-out;
+    -moz-animation: bounce 0.7s ease-out;
+    -ms-animation: bounce 0.7s ease-out;
+    -o-animation: bounce 0.7s ease-out;
+    animation: bounce 0.7s ease-out;
+}
+
+.link.open_link a:first-child {
+    margin-top: 130px;
+    opacity: 1;
+}
+
+.link.open_link a:last-child {
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.active_down {
+    margin-top: 180px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
