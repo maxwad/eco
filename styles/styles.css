@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/*  background-image: url('../images/wall.jpg');    */
+/*  FIXED BLOCK  */
 
 .container {
     display: block;
@@ -16,6 +16,15 @@ body {
     width: 1200px;
     min-width: 1150px;
     margin: 0 auto;
+}
+
+.bottom_arrow {
+    position: absolute;
+    height: 35px;
+    width: 100%;
+    bottom: -34px;
+    left: 0;
+
 }
 
 #overlay_layer {
@@ -30,6 +39,11 @@ body {
 
 .top_block {
     background-color: #EAF1F6;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .top_block .container {
@@ -43,10 +57,15 @@ body {
     width: 360px;
 }
 
+.top_block .logo a{
+    display: block;
+}
+
 .top_block .social {
-    width: 150px;
+    width: 170px;
     color: #838D94;
     text-align: center;
+    font-size: 16px;
 }
 
 .top_block .download_price {
@@ -55,10 +74,13 @@ body {
     border: 1px solid #578C2D;
     text-align: center;
     padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .top_block .social ul {
-    padding: 0;
+    padding: 0 20px;
     margin: 10px 0;
     display: flex;
     justify-content: space-around;
@@ -83,4 +105,96 @@ body {
 
 .top_block .social ul a.vk {
     background-image: url('../images/vk_icon.png');
+}
+
+.top_block .download_price .download {
+    display: block;
+    color: #578C2D;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top_block_col.tel {
+    padding-left: 60px;
+    background: url('../images/contacts_icon_top.png') no-repeat;
+    color: #578c2d;
+}
+
+.top_block_col .tel_number {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.top_block_col .order {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*  HEADER  */
+
+header {
+    position: relative;
+    margin-top: 80px;
+    z-index: 3;
+    background: url('../images/bg_header.jpg') no-repeat;
+    background-size: cover;
+    padding: 25px 0 30px 0;
+}
+
+.header_description {
+    width: 850px;
+    margin: 0 auto 25px auto;
+    padding: 20px 15px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #A3CB86;
+    background: rgba(58, 105, 24, 0.4);
+}
+
+.only_us {
+    background-color: rgba(44, 141, 28, 0.6);
+    color: #fff;
+    font-size: 1.3em;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.buy_now {
+    display: block;
+    width: 310px;
+    padding: 15px 30px;
+    margin: 15px auto 0 auto;
+    outline: none;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #fe5016 0%, #fd8b0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fe5016 0%,#fd8b0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fe5016 0%,#fd8b0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fe5016 0%,#fd8b0e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe5016', endColorstr='#fd8b0e',GradientType=0 ); /* IE6-9 */
+}
+
+.buy_now:hover {
+    background: -webkit-linear-gradient(top, #fda151 0%,#fe5016 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fda151 0%,#fe5016 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fda151 0%,#fe5016 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fda151 0%,#fe5016 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda151', endColorstr='#fe5016',GradientType=0 ); /* IE6-9 */
+}
+
+header .bottom_arrow {
+    background: url('../images/bg_arrow_09.png') no-repeat top center;
+}
+
+.product_block {
+    background: #ffffff;
+    height: 50px;
 }
