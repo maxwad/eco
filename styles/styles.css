@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 /*  FIXED BLOCK  */
@@ -194,7 +196,12 @@ header .bottom_arrow {
     background: url('../images/bg_arrow_09.png') no-repeat top center;
 }
 
-.product_block {
-    background: #ffffff;
-    height: 50px;
+
+/*  PRODUCT BLOCKs  */
+
+
+.product_block.product_1 {
+    margin: 0;
+    background: url('../images/bg_block_01.jpg') no-repeat center;
 }
+
