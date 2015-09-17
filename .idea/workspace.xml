@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096acc2b-f365-4a25-8143-cc254b6f1bca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_02.png" afterPath="$PROJECT_DIR$/images/bg_arrow_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_09.png" afterPath="$PROJECT_DIR$/images/bg_arrow_09.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block1_arise_02.png" afterPath="$PROJECT_DIR$/images/block1_arise_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block2_arise_01.png" afterPath="$PROJECT_DIR$/images/block2_arise_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_03.png" afterPath="$PROJECT_DIR$/images/bg_arrow_03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_04.png" afterPath="$PROJECT_DIR$/images/bg_arrow_04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_05.png" afterPath="$PROJECT_DIR$/images/bg_arrow_05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_06.png" afterPath="$PROJECT_DIR$/images/bg_arrow_06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block2_arise_03.png" afterPath="$PROJECT_DIR$/images/block2_arise_03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block3_arise_02.png" afterPath="$PROJECT_DIR$/images/block3_arise_02.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecopage.html" afterPath="$PROJECT_DIR$/ecopage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,7 +36,7 @@
       <file leaf-file-name="ecopage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecopage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="225" column="57" selection-start="13369" selection-end="13369" vertical-scroll-proportion="-7.923077" vertical-offset="4069" max-vertical-offset="4883">
+            <state line="362" column="32" selection-start="21411" selection-end="21429" vertical-scroll-proportion="-11.615385" vertical-offset="6576" max-vertical-offset="7505">
               <folding />
             </state>
           </provider>
@@ -43,7 +45,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="609" column="10" selection-start="11209" selection-end="11209" vertical-scroll-proportion="0.6481481" vertical-offset="11205" max-vertical-offset="11799">
+            <state line="905" column="1" selection-start="17093" selection-end="17093" vertical-scroll-proportion="0.13636364" vertical-offset="17133" max-vertical-offset="17784">
               <folding />
             </state>
           </provider>
@@ -303,14 +305,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecopage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="57" selection-start="13369" selection-end="13369" vertical-scroll-proportion="-7.923077" vertical-offset="4069" max-vertical-offset="4883">
+        <state line="362" column="32" selection-start="21411" selection-end="21429" vertical-scroll-proportion="-11.615385" vertical-offset="6576" max-vertical-offset="7505">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="609" column="10" selection-start="11209" selection-end="11209" vertical-scroll-proportion="0.6481481" vertical-offset="11205" max-vertical-offset="11799">
+        <state line="905" column="1" selection-start="17093" selection-end="17093" vertical-scroll-proportion="0.13636364" vertical-offset="17133" max-vertical-offset="17784">
           <folding />
         </state>
       </provider>

@@ -468,7 +468,6 @@ header .bottom_arrow {
     color: #333333;
 }
 
-
 .description_right ul {
     padding-left: 100px;
     background: url('../images/echo_brand_02.png') no-repeat left center;
@@ -613,3 +612,318 @@ header .bottom_arrow {
     border-top: 3px solid #ffffff;
     border-bottom: 3px solid #ffffff;
 }
+
+.product_2 .new_price, .product_2 .old_price {
+    margin-top: 150px;
+}
+
+.product_2 .advantages {
+    margin-top: -100px;
+}
+
+.product_2 .echo {
+    left: 20%;
+    width: 590px;
+}
+
+.product_2 .logo_echo {
+    margin: 0;
+    float: right;
+}
+
+.product_2 .echo_text {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 370px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.product_2 .bottom_arrow {
+    background: url('../images/bg_arrow_03.png') no-repeat top center;
+}
+
+
+
+/*  PRODUCT BLOCKs  */
+
+
+
+.product_block_description.description_2 {
+    background: url('../images/bg_block_04.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 35;
+}
+
+.description_2 .advantages-block {
+    font-weight: 700;
+}
+
+.description_2 .caption_1 {
+    border-top: 47px solid #009933;
+}
+
+.description_2 .caption_2 {
+    border-top: 47px solid #258C89;
+}
+
+.description_2 .trimmer_detail_1 {
+    top: 85px;
+    left: 100px;
+}
+
+.description_2 .trimmer_detail_2 {
+    top: 300px;
+    left: 100px;
+}
+
+.description_2 .trimmer_detail_3 {
+    top: 420px;
+    left: 130px;
+}
+
+.trimmer_detail_3 img {
+    margin-top: -147px;
+}
+
+.description_2 .trimmer_detail_1 img, .description_2 .trimmer_detail_2 img, .description_2 .trimmer_detail_3 img {
+    transform: translateX(-38%);
+    width: 130px;
+    height: 150px;
+}
+
+.description_2 .description_arrow {
+background: url('../images/bg_arrow_04.png') no-repeat top center;
+}
+
+
+
+
+/*  PRODUCT BLOCKs  */
+
+.product_3 {
+    background: url('../images/bg_block_05.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 30;
+    margin-top: 40px;
+}
+
+.product_3 .best_price {
+    width: 25%;
+    margin-left: 60px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+.product_3 .title_product {
+    width: 50%;
+    float: right;
+    color: #ffffff;
+}
+
+.product_3 .title_product p {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.product_3 .title_product span {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-size: 16px;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.product_3 .new_price, .product_3 .old_price {
+    margin-top: 150px;
+}
+
+.product_3 .advantages {
+    margin-top: -100px;
+}
+
+.product_3 .echo {
+    left: 20%;
+    width: 590px;
+}
+
+.product_3 .logo_echo {
+    margin: 0;
+    float: right;
+}
+
+.product_3 .echo_text {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 370px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.product_3 .bottom_arrow {
+    background: url('../images/bg_arrow_05.png') no-repeat top center;
+}
+
+
+
+/*  PRODUCT BLOCKs  */
+
+
+
+.product_block_description.description_3 {
+    background: url('../images/bg_block_06.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 25;
+}
+
+.description_3 .advantages-block {
+    font-weight: 700;
+}
+
+.description_3 .caption_1 {
+    border-top: 47px solid #ff9d1f;
+}
+
+.description_3 .caption_2 {
+    border-top: 47px solid #e16e2b;
+}
+
+.description_3 .trimmer_detail_1 {
+    top: 95px;
+    left: 80px;
+}
+
+.description_3 .trimmer_detail_2 {
+    top: 300px;
+    left: 140px;
+}
+
+.description_3 .trimmer_detail_3 {
+    top: 420px;
+    left: 125px;
+}
+
+.trimmer_detail_3 img {
+    margin-top: -147px;
+}
+
+.description_3 .trimmer_detail_1 img, .description_3 .trimmer_detail_2 img, .description_3 .trimmer_detail_3 img {
+    transform: translateX(-38%);
+    width: 130px;
+    height: 150px;
+}
+
+.description_3 .description_arrow {
+    background: url('../images/bg_arrow_06.png') no-repeat top center;
+}
+
+/*  PRODUCT BLOCKs  */
+
+.product_4 {
+    background: url('../images/bg_block_07.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 24;
+    margin-top: 40px;
+}
+
+.product_4 .choice {
+    background: url('../images/line-title_2.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+.product_4 .container {
+    display: flex;
+}
+
+.product_4 .product_choice {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.product_item {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+.caption_product {
+    width: 65%;
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    background: url('../images/line_title.png') no-repeat bottom left;
+}
+
+.buy_product {
+    background: -webkit-linear-gradient(top, #ffb3a7 0%,#f34831 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffb3a7 0%,#f34831 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffb3a7 0%,#f34831 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffb3a7 0%,#f34831 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3a7', endColorstr='#f34831',GradientType=0 );
+    text-transform: uppercase;
+    width: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.buy_product:hover {
+    background: -webkit-linear-gradient(top, #fa9086 0%,#eb2118 64%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fa9086 0%,#eb2118 64%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fa9086 0%,#eb2118 64%); /* IE10+ */
+    background: linear-gradient(to bottom, #fa9086 0%,#eb2118 64%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa9086', endColorstr='#eb2118',GradientType=0 );
+}
+
+.price {
+    margin: 155px 0 0 70px;
+}
+
+.advantages_product {
+    position: relative;
+    float: right;
+    width: 120px;
+}
+
+.advantages_detail {
+    position: absolute;
+    bottom: 0;
+    left: -180px;
+    width: 250px;
+    height: 375px;
+    background: url('../images/block_arise.png') no-repeat bottom center;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 16px;
+    transition: all 0.5s ease-out;
+}
+
+.advantages_detail ul {
+    margin-top: 60px;
+}
+
+.advantages_detail li {
+    display: block;
+}
+
