@@ -848,7 +848,7 @@ background: url('../images/bg_arrow_04.png') no-repeat top center;
 }
 
 .product_4 .product_choice {
-    width: 25%;
+    flex: 1;
     position: relative;
     overflow: hidden;
 }
@@ -903,6 +903,7 @@ background: url('../images/bg_arrow_04.png') no-repeat top center;
     position: relative;
     float: right;
     width: 120px;
+    margin-bottom: 15px;
 }
 
 .advantages_detail {
@@ -927,3 +928,224 @@ background: url('../images/bg_arrow_04.png') no-repeat top center;
     display: block;
 }
 
+.product_4 .description_arrow {
+    background: url('../images/bg_arrow_07.png') no-repeat top center;
+}
+
+
+/*  PRODUCT BLOCKs  */
+
+
+.form_block {
+    background: url('../images/bg_block_08.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 22;
+    margin-top: 40px;
+    overflow: visible;
+    padding-bottom: 0;
+}
+
+.form_block .choice {
+    background: url('../images/line-title_4.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.form_block .container {
+    text-align: center;
+    overflow: visible;
+}
+
+.advice {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.name_form, .phone_form {
+    height: 60px;
+}
+
+.name_form {
+    background: url('../images/bg_feedback_element_01.png') no-repeat center;
+}
+
+.name_form .name_form_control {
+    width: 610px;
+}
+
+.phone_form {
+    background: url('../images/bg_feedback_element_02.png') no-repeat center;
+}
+
+.phone_form .phone_form_control{
+    width: 540px;
+}
+
+.button_form {
+    background: url('../images/bg_feedback_element_03.png') no-repeat center;
+    background-size: contain;
+    width: 570px;
+    height: 90px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button_form .button_form_control {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: transparent;
+}
+
+.button_form:hover {
+    background: url('../images/bg_feedback_element_03_hover.png') no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.form_block input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.form_block .description_arrow {
+    background: url('../images/bg_arrow_08.png') no-repeat top center;
+    bottom: -35px;
+    z-index: 10;
+}
+
+.form_block .container {
+    z-index: 20;
+    position: relative;
+}
+
+
+/*  PRODUCT BLOCKs  */
+
+.review_block {
+    background: url('../images/bg_block_09.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 20;
+    margin-top: 15px;
+    padding-top: 35px;
+    color: #ffffff;
+}
+
+.review_block .container{
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.review_block .choice {
+    background: url('../images/line-title_3.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.slide_caption, .slide_date {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.slide_date {
+    font-size: 18px;
+}
+
+.slide_body {
+    position: relative;
+    background: url('../images/bg_block_massage.png') no-repeat center;
+    padding: 40px;
+    margin: 10px 30px 0 30px;
+    height: 435px;
+    cursor: pointer;
+}
+
+.slide_icon {
+    position: absolute;
+    top: -75px;
+}
+
+.left_align .slide_icon {
+    left: 40px;
+}
+
+.right_align .slide_icon {
+    right: 40px;
+}
+
+.slide_text {
+    padding-top: 40px;
+}
+
+.slide_text h3 {
+    font-size: 18px;
+}
+
+:focus {
+    outline: none;
+}
+
+.slick-list {
+    overflow: visible!important;
+}
+
+.review_block .description_arrow {
+    background: url('../images/bg_arrow_07.png') no-repeat top center;
+}
+
+
+/*  PRODUCT BLOCKs  */
+
+
+
+.map_block {
+    background: url('../images/bg_block_10.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 18;
+    margin-top: 15px;
+    padding-top: 60px;
+    color: #ffffff;
+}
+
+.place {
+    background: url('../images/line-title_4.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.map {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto 50px auto;
+    border: 2px solid #ff0504;
+    box-shadow: 0 50px 19px -25px #999999;
+}
+
+.map_block .container {
+    overflow: visible;
+    margin-bottom: -130px!important;
+}

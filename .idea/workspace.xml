@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096acc2b-f365-4a25-8143-cc254b6f1bca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_03.png" afterPath="$PROJECT_DIR$/images/bg_arrow_03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_04.png" afterPath="$PROJECT_DIR$/images/bg_arrow_04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_05.png" afterPath="$PROJECT_DIR$/images/bg_arrow_05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_06.png" afterPath="$PROJECT_DIR$/images/bg_arrow_06.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block2_arise_03.png" afterPath="$PROJECT_DIR$/images/block2_arise_03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/block3_arise_02.png" afterPath="$PROJECT_DIR$/images/block3_arise_02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_07.png" afterPath="$PROJECT_DIR$/images/bg_arrow_07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_arrow_08.png" afterPath="$PROJECT_DIR$/images/bg_arrow_08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_block_08.jpg" afterPath="$PROJECT_DIR$/images/bg_block_08.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/line-title_3.png" afterPath="$PROJECT_DIR$/images/line-title_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/line-title_4.png" afterPath="$PROJECT_DIR$/images/line-title_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/all_scripts.js" afterPath="$PROJECT_DIR$/js/all_scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecopage.html" afterPath="$PROJECT_DIR$/ecopage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -36,7 +36,16 @@
       <file leaf-file-name="ecopage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecopage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="362" column="32" selection-start="21411" selection-end="21429" vertical-scroll-proportion="-11.615385" vertical-offset="6576" max-vertical-offset="7505">
+            <state line="570" column="45" selection-start="36771" selection-end="36772" vertical-scroll-proportion="0.8076923" vertical-offset="10851" max-vertical-offset="11419">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/all_scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="46" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
               <folding />
             </state>
           </provider>
@@ -45,7 +54,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="905" column="1" selection-start="17093" selection-end="17093" vertical-scroll-proportion="0.13636364" vertical-offset="17133" max-vertical-offset="17784">
+            <state line="1144" column="24" selection-start="21468" selection-end="21468" vertical-scroll-proportion="0.7121212" vertical-offset="21332" max-vertical-offset="21983">
               <folding />
             </state>
           </provider>
@@ -69,7 +78,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/styles/slick-theme.css" />
         <option value="$PROJECT_DIR$/ecopage.html" />
+        <option value="$PROJECT_DIR$/js/all_scripts.js" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
       </list>
     </option>
@@ -107,6 +118,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,9 +151,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,10 +174,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -173,7 +211,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11786237" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11713031" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -205,48 +243,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="1" selection-start="4904" selection-end="4904" vertical-scroll-proportion="0.0" vertical-offset="4541" max-vertical-offset="4655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecopage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="21" selection-start="8347" selection-end="8347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="0" selection-start="6770" selection-end="6770" vertical-scroll-proportion="0.0" vertical-offset="7539" max-vertical-offset="7665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecopage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="40" selection-start="4403" selection-end="4403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1953">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="24" selection-start="6635" selection-end="6635" vertical-scroll-proportion="0.0" vertical-offset="7371" max-vertical-offset="7539">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecopage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="2425" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="1932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="209" column="21" selection-start="4439" selection-end="4439" vertical-scroll-proportion="0.0" vertical-offset="4389" max-vertical-offset="5145">
@@ -303,16 +299,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_block_09.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_block_massage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_arrow_08.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="6" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="4347" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12635">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecopage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="362" column="32" selection-start="21411" selection-end="21429" vertical-scroll-proportion="-11.615385" vertical-offset="6576" max-vertical-offset="7505">
+        <state line="570" column="45" selection-start="36771" selection-end="36772" vertical-scroll-proportion="0.8076923" vertical-offset="10851" max-vertical-offset="11419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/all_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="46" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="905" column="1" selection-start="17093" selection-end="17093" vertical-scroll-proportion="0.13636364" vertical-offset="17133" max-vertical-offset="17784">
+        <state line="1144" column="24" selection-start="21468" selection-end="21468" vertical-scroll-proportion="0.7121212" vertical-offset="21332" max-vertical-offset="21983">
           <folding />
         </state>
       </provider>
