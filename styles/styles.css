@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 
 a, article, body, div, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, img, li, nav, ol, p, section, span, u, ul, input, textarea, iframe {
@@ -1270,6 +1275,9 @@ footer .container {
     background: #F3F4F1;
 }
 
-.visible_flag {
-    display: block!important;
+.invisible_up_flag {
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
 }
+
