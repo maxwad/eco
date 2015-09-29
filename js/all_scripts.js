@@ -47,10 +47,44 @@ $(document).ready(function () {
         $(this).addClass("second");
     });
 
-    $('.price_product').waypoint(function() {
-        $(this.element).removeClass('invisible_flag');
+    $('.logo_echo').waypoint(function() {
+        $(this.element).removeClass('invisible_up_flag');
         },
         {offset: '65%'}
     );
+    $('.description_center div').waypoint(function() {
+            $(this.element).removeClass('invisible_up_flag');
+        },
+        {offset: '65%'}
+    );
+    $('.advantages_product').waypoint(function() {
+            $(this.element).removeClass('invisible_up_flag');
+        },
+        {offset: '65%'}
+    );
+    $('.buy_now').waypoint(function() {
+            $(this.element).removeClass('invisible_up_flag');
+        },
+        {offset: '65%'}
+    );
+    $('.price_product').waypoint(function() {
+            $(this.element).removeClass('invisible_up_flag');
+        },
+        {offset: '65%'}
+    );
+
+    $('.logo_echo').waypoint(function() {
+            $(this.element).removeClass('invisible_down_flag');
+        },
+        {offset: '65%'}
+    );
+
+    $('.top_block').waypoint(function() {
+            $(this.element).removeClass('invisible_down_flag');
+        },
+        {offset: '0'}
+    );
+
+
 
 });

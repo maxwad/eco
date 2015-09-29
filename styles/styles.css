@@ -443,6 +443,11 @@ header .bottom_arrow {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    -ms-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
 }
 
 .description_right {
@@ -495,6 +500,11 @@ header .bottom_arrow {
     display: block;
     width: 270px;
     margin: 0 auto;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    -ms-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
 }
 
 .trimmer_detail_1, .trimmer_detail_2, .trimmer_detail_3 {
@@ -1276,7 +1286,19 @@ footer .container {
 }
 
 .invisible_up_flag {
-    position: relative;
+
     opacity: 0;
     transform: translateY(50px);
+}
+
+.invisible_down_flag {
+
+    opacity: 0;
+    transform: translateY(-50px);
+}
+
+.invisible_up_flag_s {
+
+    opacity: 0;
+    bottom: -50px;
 }

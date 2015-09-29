@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8e9a7c4-2312-4272-bc2a-ff27724d170b" name="Default" comment="" />
+    <list default="true" id="a8e9a7c4-2312-4272-bc2a-ff27724d170b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/all_scripts.js" afterPath="$PROJECT_DIR$/js/all_scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecopage.html" afterPath="$PROJECT_DIR$/ecopage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
+    </list>
     <ignored path="eco.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +30,7 @@
       <file leaf-file-name="ecopage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecopage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="479.46155" vertical-offset="12466" max-vertical-offset="13034">
+            <state line="353" column="46" selection-start="21233" selection-end="21233" vertical-scroll-proportion="-2.8039215" vertical-offset="6564" max-vertical-offset="13053">
               <folding />
             </state>
           </provider>
@@ -35,7 +39,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1277" column="19" selection-start="23651" selection-end="23651" vertical-scroll-proportion="0.0" vertical-offset="23954" max-vertical-offset="24548">
+            <state line="1300" column="0" selection-start="24196" selection-end="24196" vertical-scroll-proportion="-15.16" vertical-offset="24321" max-vertical-offset="24966">
               <folding />
             </state>
           </provider>
@@ -44,7 +48,7 @@
       <file leaf-file-name="all_scripts.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/all_scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="3" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.8080808" vertical-offset="565" max-vertical-offset="1159">
+            <state line="52" column="23" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.5521886" vertical-offset="660" max-vertical-offset="1805">
               <folding />
             </state>
           </provider>
@@ -68,6 +72,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/ecopage.html" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/js/all_scripts.js" />
       </list>
@@ -161,6 +166,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -178,7 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -212,32 +218,32 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15181">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecopage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="479.46155" vertical-offset="12466" max-vertical-offset="13034">
+        <state line="353" column="46" selection-start="21233" selection-end="21233" vertical-scroll-proportion="-2.8039215" vertical-offset="6564" max-vertical-offset="13053">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1277" column="19" selection-start="23651" selection-end="23651" vertical-scroll-proportion="0.0" vertical-offset="23954" max-vertical-offset="24548">
+        <state line="1300" column="0" selection-start="24196" selection-end="24196" vertical-scroll-proportion="-15.16" vertical-offset="24321" max-vertical-offset="24966">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15181">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/all_scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="3" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.8080808" vertical-offset="565" max-vertical-offset="1159">
+        <state line="52" column="23" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.5521886" vertical-offset="660" max-vertical-offset="1805">
           <folding />
         </state>
       </provider>
