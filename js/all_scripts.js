@@ -39,8 +39,18 @@ $(document).ready(function () {
         $("#overlay_layer").removeClass("visible_flag");
     });
 
-    $(".advantages_product").hover(function () {
+    $(".advantages_product").mouseover(function () {
            $(this).find(".advantages_detail").fadeIn(500);
         });
-	
+    $(".advantages_product").mouseleave(function () {
+        $(this).find(".advantages_detail").fadeOut(500);
+        $(this).addClass("second");
+    });
+
+    $('.price_product').waypoint(function() {
+        $(this.element).removeClass('invisible_flag');
+        },
+        {offset: '65%'}
+    );
+
 });
