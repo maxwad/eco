@@ -30,10 +30,17 @@ $(document).ready(function () {
         myMap.geoObjects.add(myPlacemark);
     }
 
-    $().click(function () {
-
+    $(".button_call").click(function (e) {
+        e.preventDefault();
+        $("#overlay_layer").addClass("visible_flag").height(screen.availHeight).width(screen.availWidth);
     });
 
+    $(".close_block").click(function () {
+        $("#overlay_layer").removeClass("visible_flag");
+    });
 
+    $(".advantages_product").hover(function () {
+           $(this).find(".advantages_detail").fadeIn(500);
+        });
 	
 });
