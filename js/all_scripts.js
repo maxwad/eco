@@ -40,51 +40,32 @@ $(document).ready(function () {
     });
 
     $(".advantages_product").mouseover(function () {
-           $(this).find(".advantages_detail").fadeIn(500);
-        });
+           $(this).find(".advantages_detail").stop().fadeIn(500);
+    });
+
     $(".advantages_product").mouseleave(function () {
-        $(this).find(".advantages_detail").fadeOut(500);
+        $(this).find(".advantages_detail").stop().fadeOut(500);
         $(this).addClass("second");
     });
 
-    $('.logo_echo').waypoint(function() {
+    $('.logo_echo, .description_center div, .description_center, .advantages_product, .buy_product, .footer_col.up').waypoint(function() {
         $(this.element).removeClass('invisible_up_flag');
+        $(this.element).removeClass('invisible_down_flag');
         },
-        {offset: '65%'}
+        {offset: '85%'}
     );
-    $('.description_center div').waypoint(function() {
+
+    $('.buy_now, .trimmer_mini').waypoint(function() {
             $(this.element).removeClass('invisible_up_flag');
         },
-        {offset: '65%'}
+        {offset: '95%'}
     );
-    $('.advantages_product').waypoint(function() {
-            $(this.element).removeClass('invisible_up_flag');
-        },
-        {offset: '65%'}
-    );
-    $('.buy_now').waypoint(function() {
-            $(this.element).removeClass('invisible_up_flag');
-        },
-        {offset: '65%'}
-    );
+
     $('.price_product').waypoint(function() {
             $(this.element).removeClass('invisible_up_flag');
         },
         {offset: '65%'}
     );
-
-    $('.logo_echo').waypoint(function() {
-            $(this.element).removeClass('invisible_down_flag');
-        },
-        {offset: '65%'}
-    );
-
-    $('.top_block').waypoint(function() {
-            $(this.element).removeClass('invisible_down_flag');
-        },
-        {offset: '0'}
-    );
-
-
+    $('.top_block').removeClass('invisible_down_flag');
 
 });

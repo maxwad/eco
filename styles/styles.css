@@ -487,6 +487,10 @@ header .bottom_arrow {
     display: none;
 }
 
+.description_center div {
+    transition: all 0.5s ease-out;
+}
+
 .description_center div:hover img {
     display: block;
 }
@@ -494,17 +498,18 @@ header .bottom_arrow {
 .description_center div:hover {
     background: url('../images/detail_icon_active.png') no-repeat;
     z-index: 10;
+    transition: background 0.1s ease-out;
 }
 
 .trimmer_mini {
     display: block;
     width: 270px;
     margin: 0 auto;
-    -webkit-transition: all 0.8s ease-out;
-    -moz-transition: all 0.8s ease-out;
-    -ms-transition: all 0.8s ease-out;
-    -o-transition: all 0.8s ease-out;
-    transition: all 0.8s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .trimmer_detail_1, .trimmer_detail_2, .trimmer_detail_3 {
@@ -517,9 +522,9 @@ header .bottom_arrow {
 }
 
 .trimmer_detail_1 img, .trimmer_detail_2 img, .trimmer_detail_3 img {
-    transform: translateX(-40%);
-    width: 200px;
-    height: 230px;
+    transform: translateX(-36%);
+    width: 130px;
+    height: 150px;
 }
 
 .trimmer_detail_1 img, .trimmer_detail_2 img {
@@ -693,12 +698,6 @@ header .bottom_arrow {
 
 .trimmer_detail_3 img {
     margin-top: -147px;
-}
-
-.description_2 .trimmer_detail_1 img, .description_2 .trimmer_detail_2 img, .description_2 .trimmer_detail_3 img {
-    transform: translateX(-38%);
-    width: 130px;
-    height: 150px;
 }
 
 .description_2 .description_arrow {
@@ -925,6 +924,7 @@ background: url('../images/bg_arrow_04.png') no-repeat top center;
     font-size: 13px;
     color: #ffffff;
     line-height: 16px;
+    transition: none;
 }
 
 .advantages_detail ul {
@@ -1285,20 +1285,54 @@ footer .container {
     background: #F3F4F1;
 }
 
-.invisible_up_flag {
+.visible_flag {
 
+    display: block!important;
+
+}
+
+
+/*  WAYPOINT  */
+
+
+.invisible_up_flag {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(30px);
 }
 
 .invisible_down_flag {
-
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
 }
 
-.invisible_up_flag_s {
+/*  SCROLL  */
 
+
+::-webkit-scrollbar{
+    width:6px;
     opacity: 0;
-    bottom: -50px;
+}
+
+::-webkit-scrollbar:hover{
+    opacity: 1;
+}
+
+::-webkit-scrollbar-thumb{
+    border: 1px solid #d9d9d9;
+    background-color: #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    border: 1px solid #d9d9d9;
+    background-color: #777;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-track-piece{
+    background: transparent;
 }
