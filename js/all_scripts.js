@@ -68,4 +68,14 @@ $(document).ready(function () {
     );
     $('.top_block').removeClass('invisible_down_flag');
 
+    $('.advantages').click(function() {
+        $.scrollTo(this, 500,{easing: 'linear'}).scrollTo("+=100px",300,{easing: 'linear'});
+    });
+
+    $('.footer_col.up').click(function(e) {
+        e.preventDefault();
+        $.scrollTo("0", 2000);
+    });
+
+
 });
